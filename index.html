@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,10 +9,32 @@
     <title>Página de Contato</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="hero">
-        
+        <form>
+            <div class="input-group">
+                <input type="text" id="name" required>
+                <label for="name">Seu Nome</label>
+            </div>
+
+            <div class="input-group">
+                <input type="text" id="number" required>
+                <label for="number">Seu Telefone</label>
+            </div>
+
+            <div class="input-group">
+                <input type="text" id="email" required>
+                <label for="email">Seu E-mail</label>
+            </div>
+
+            <div class="input-group">
+                <textarea id="message" rows="8"></textarea>
+                <label for="message">Sua Mensagem</label>
+            </div>
+            <button type="submit">ENVIAR</button>
+        </form>
     </div>
-    
 </body>
+
 </html>
